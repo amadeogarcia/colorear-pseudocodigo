@@ -1,5 +1,5 @@
 # Colorear Pseudocódigo #
-Configuración para colorear el pseudocódigo usado en la cátedra de Informática del Ciclo Básico de la FCEIA (UNR) con Notepad++.
+Configuración para colorear el pseudocódigo usado en la cátedra de Informática del Ciclo Básico de la FCEIA (UNR) con Notepad++, utilizando el mismo patrón de colores que el lenguaje C.
 
 ## Instalación ##
 1. Ya en **Notepad++**, vaja a *Lenguaje -> Definido por el usuario -> Abrir carpeta de lenguaje definido por usuario*. (Por defecto, en Windows, esta ruta es `C:\Users\<usuario>\AppData\Roaming\Notepad++\userDefineLangs`, reemplazando `<usuario>` por su usuario de Windows).
