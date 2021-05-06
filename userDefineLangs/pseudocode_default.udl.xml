@@ -1,0 +1,131 @@
+<!--
+Este proyecto busca hacer un poco más amena la experiencia
+al programar en pseudocódigo.
+
+La configuración está realizada específicamente para la 
+cátedra Informática del Ciclo Básico de Ingeniería en la 
+FCEIA (UNR), por lo que puede no funcionar para otras variantes.
+
+Encontrá la configuración para distintos temas en:
+https://github.com/amadeogarcia/colorear-pseudocodigo
+
+Copyright (c) Amadeo García Torrano. Código abierto bajo licencia GNU GPL-v3.0:
+https://github.com/amadeogarcia/colorear-pseudocodigo/blob/main/LICENSE
+-->
+
+<NotepadPlus>
+    <UserLang name="Pseudocodigo (Default)" ext="psc" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="yes" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <!-- Comentarios -->
+			<Keywords name="Comments">00// 01 02 03 04</Keywords>
+			
+			<!-- Indefinido -->
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+			
+			<!-- Operadores -->
+            <Keywords name="Operators1">+ - * / &lt; &gt; = , ( ) [ ]</Keywords>
+            <Keywords name="Operators2">Y O NO</Keywords>
+			
+			<!-- Indefinido -->
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+			
+            <!-- Estructuras de selección e iteración -->
+			<Keywords name="Folders in code2, open">&apos;Si&apos; &apos;Segun Sea&apos; &apos;Repetir Para&apos; &apos;Repetir Mientras&apos; &apos;Repetir&apos;</Keywords>
+            <Keywords name="Folders in code2, middle">&apos;Sino&apos; &apos;Sino&apos;</Keywords>
+            <Keywords name="Folders in code2, close">&apos;Fin Si&apos; &apos;Fin Segun&apos; &apos;Fin Para&apos; &apos;Fin Mientras&apos; &apos;Hasta Que&apos;</Keywords>
+			
+			<!-- Indefinido -->
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+			
+			<!-- Bloques -->
+			<Keywords name="Keywords1">Algoritmo Variables Inicio Fin.</Keywords>
+			
+			<!-- Tipos de datos -->
+            <Keywords name="Keywords2">caracter real entero</Keywords>
+			
+			<!-- Apéndice de estructuras de iteración -->
+            <Keywords name="Keywords3">Entonces Hacer</Keywords>
+
+			<!-- Indefinido -->
+            <Keywords name="Keywords4"></Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+			
+			<!-- Definición de cadenas y caracteres -->
+            <Keywords name="Delimiters">00&quot; 01\ 02&quot; 03&apos; 04\ 05&apos; 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+			
+        </KeywordLists>
+        <Styles>
+			<!-- Estilo equivalente a DEFAULT -->
+			<WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" colorStyle="0" fontName="" fontStyle="0" nesting="0" />
+            
+			<!-- Indefinido -->
+			<WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+
+            <!-- Estilo equivalente a COMMENT LINE -->
+			<WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" nesting="0" />
+
+            <!-- Estilo equivalente a NUMBER -->
+			<WordsStyle name="NUMBERS" fgColor="FF8000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" nesting="0" />
+
+            <!-- Estilo equivalente a PREPROCESSOR -->
+			<WordsStyle name="KEYWORDS1" fgColor="804000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="2" nesting="0" />
+
+            <!-- Estilo equivalente a TYPE WORD -->
+			<WordsStyle name="KEYWORDS2" fgColor="8000FF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" nesting="0" />
+
+            <!-- Estilo quivalente a INSTRUCTION WORD -->
+			<WordsStyle name="KEYWORDS3" fgColor="0000FF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="1" nesting="0" />
+
+            <!-- Indefinido -->
+			<WordsStyle name="KEYWORDS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+
+			<!-- Estilo equivalente a OPERATOR -->
+            <WordsStyle name="OPERATORS" fgColor="000080" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" nesting="0" />
+
+            <!-- Indefinido -->
+			<WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+
+            <!-- Estilo equivalente a INSTRUCTION WORD -->
+			<WordsStyle name="FOLDER IN CODE2" fgColor="0000FF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="1" nesting="0" />
+
+            <!-- Indefinido -->
+			<WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+
+            <!-- Estilo equivalente a STRING -->
+			<WordsStyle name="DELIMITERS1" fgColor="808080" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" nesting="0" />
+
+            <!-- Estilo quivalente a CHARACTER -->
+			<WordsStyle name="DELIMITERS2" fgColor="808080" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" nesting="0" />
+
+            <!-- Indefinido -->
+			<WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+
+		</Styles>
+    </UserLang>
+</NotepadPlus>
