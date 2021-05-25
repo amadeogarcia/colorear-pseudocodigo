@@ -33,7 +33,7 @@ https://github.com/amadeogarcia/colorear-pseudocodigo/blob/main/LICENSE
             <Keywords name="Numbers, range"></Keywords>
 			
 			<!-- Operadores -->
-            <Keywords name="Operators1">+ - * / &lt; &gt; = , ( ) [ ]</Keywords>
+            <Keywords name="Operators1">+ - * / &lt; &gt; = , ( ) [ ] :</Keywords>
             <Keywords name="Operators2">Y O NO</Keywords>
 			
 			<!-- Indefinido -->
@@ -57,8 +57,8 @@ https://github.com/amadeogarcia/colorear-pseudocodigo/blob/main/LICENSE
 			<!-- Tipos de datos -->
             <Keywords name="Keywords2">caracter real entero</Keywords>
 			
-			<!-- Apéndice de estructuras de iteración -->
-            <Keywords name="Keywords3">Entonces Hacer</Keywords>
+			<!-- Apéndice de palabras clave -->
+            <Keywords name="Keywords3">Entonces Hacer Caso</Keywords>
 
 			<!-- Indefinido -->
             <Keywords name="Keywords4"></Keywords>

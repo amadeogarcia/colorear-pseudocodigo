@@ -5,7 +5,7 @@ Configuración para colorear el pseudocódigo usado en la cátedra de Informáti
 
 ## Instalación ##
 1. Ya en **Notepad++**, vaya a *Lenguaje -> Definido por el usuario -> Abrir carpeta de lenguaje definido por usuario*. (Por defecto, en Windows, esta ruta es `C:\Users\<usuario>\AppData\Roaming\Notepad++\userDefineLangs`).
-2. Descargue el archivo `.xml` correspondiente al tema de su preferencia y cópielo en dicha carpeta.
+2. Descargue el archivo `.xml` correspondiente al tema de su preferencia [desde este enlace](https://github.com/amadeogarcia/colorear-pseudocodigo/releases) y cópielo en dicha carpeta.
 3. Reinicie **Notepad++**.
 
 A partir de ahora, **Notepad++** reconocerá los archivos de extensión `.psc` como archivos de Pseudocódigo y aplicará el coloreo automáticamente.
