@@ -1,36 +1,55 @@
-// Algoritmo de prueba para demostrar el coloreo
-Algoritmo PruebaColoreo
-Variables
-	caracter c
-	real r
-	entero e
-Inicio
-	Escribir("Hola mundo!\n")
-	Leer(e)
+// Archivo de prueba para demostrar el coloreo
 
-	Si (1 = 1) Entonces
-		c <- 'V'
+Funcion func(real a, entero b) : real
+Variables locales	real c ; entero d
+Inicio
+	// Acciones
+	Devolver(c)
+Fin Funcion func
+
+Subrutina subr1(E: real a, entero b ; S: real c)
+Variables locales	real c ; entero d
+Inicio
+	// Acciones
+Fin Subrutina subr1
+
+Subrutina subr2(E/S: real a, b)
+Inicio
+	// Acciones
+Fin Subrutina
+
+Algoritmo PruebaColoreo
+
+Variables
+	caracter c, frase[50]
+	real r, notas[20]
+	entero e, edades[20]
+
+Inicio
+	Escribir("Ingrese una frase: ")
+	Leer(frase)
+	
+	Si (e > 0) Entonces
+		// Acción verdadero
 	Sino
-		c <- 'F'
+		// Acción falso
 	Fin Si
 
 	Segun Sea (c)
-		Caso 'V': r <- e * 2.0
-		Caso 'F': r <- e * 1.0
-	Sino
-		r <- -1.0
+		Caso 'V': // Acción verdadero
+		Caso 'F': // Acción falso
 	Fin Segun
-
-	Repetir Para i <- 1, e
-		Escribir(i, "\n")
+	
+	r <- 1.5
+	Repetir Para i <- 1, 20
+		notas[i] <- notas[i] * r
 	Fin Para
 
-	Repetir Mientras (e > 0) Hacer
-		e <- e - 1
+	Repetir Mientras (1 <> 0) Hacer
+		// Acciones
 	Fin Mientras
 
 	Repetir
-		Escribir(e, " ")
-		e <- e + 1
-	Hasta Que (e = 10 Y 1 <> 0)
+		// Acciones
+	Hasta Que (1 <> 0 Y 10 = 10)
 Fin.
